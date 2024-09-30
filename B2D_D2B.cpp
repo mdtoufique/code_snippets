@@ -54,7 +54,7 @@ ll binaryToDecimal(string str)
    
   	for(int i = n-1 ; i>=0 ; i--){
   	if(str[i] == '1'){
-    	dec_num += (1<<power) ;
+    	dec_num += (1LL<<power) ;
   	}
   	power++ ;
 	}
