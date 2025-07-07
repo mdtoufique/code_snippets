@@ -16,7 +16,7 @@ ll mod=1e9+7;
 ll MOD=1e9+7;
 
 
-std::vector<int> getDivisors(int n) {
+vector<int> getDivisors(int n) {
     vector<int> divisors;
     
     for (int i = 1; i <= std::sqrt(n); ++i) {
@@ -28,6 +28,6 @@ std::vector<int> getDivisors(int n) {
         }
     }
 
-    std::sort(divisors.begin(), divisors.end());
+    sort(divisors.begin(), divisors.end());
     return divisors;
 }

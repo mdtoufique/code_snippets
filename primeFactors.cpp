@@ -16,7 +16,7 @@ ll mod=1e9+7;
 ll MOD=1e9+7;
 
 
-std::vector<ll> primeFactors(ll n)
+vector<ll> primeFactors(ll n)
 {
 	vector<ll>divisors;
 	while (n % 2 == 0)
