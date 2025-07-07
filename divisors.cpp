@@ -19,7 +19,7 @@ ll MOD=1e9+7;
 vector<int> getDivisors(int n) {
     vector<int> divisors;
     
-    for (int i = 1; i <= std::sqrt(n); ++i) {
+    for (int i = 1; i <= sqrt(n); ++i) {
         if (n % i == 0) {
             divisors.push_back(i);
             if (i != n / i) {
