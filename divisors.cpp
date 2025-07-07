@@ -16,10 +16,10 @@ ll mod=1e9+7;
 ll MOD=1e9+7;
 
 
-vector<int> getDivisors(int n) {
-    vector<int> divisors;
+vector<ll> getDivisors(ll n) {
+    vector<ll> divisors;
     
-    for (int i = 1; i <= sqrt(n); ++i) {
+    for (ll i = 1; i <= sqrt(n); ++i) {
         if (n % i == 0) {
             divisors.push_back(i);
             if (i != n / i) {
