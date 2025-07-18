@@ -44,7 +44,10 @@ void union_set(ll i,ll j)
     
     ll u=find_set(i);
     ll v=find_set(j);
-
+    if (u > v)
+    {
+        swap(u, v);
+    }
     if(u!=v)
     {
         par[u]=v;
